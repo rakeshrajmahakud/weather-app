@@ -158,9 +158,6 @@ input::placeholder {
     0%{
       transform: translateX(-25px);
     }
-    /* 50% {
-      transform: translateX(0px);
-    } */
     100%{
         transform: translateX(25px);
     }
