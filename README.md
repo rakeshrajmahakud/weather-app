@@ -1,7 +1,7 @@
 #           Weather App
 This app displays the current weather data along with some other information . 
 
-## Tech satck
+## Tech stack :-
 
  1. HTML
  2. CSS
