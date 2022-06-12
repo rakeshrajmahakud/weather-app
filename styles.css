@@ -142,7 +142,7 @@ input::placeholder {
 .main-img{
     height: 120px;
     /* width: 120px; */
-    animation: bounce 1000ms alternate infinite ease-in-out;
+    animation: bounce 2000ms alternate infinite ease-in-out;
     
     -webkit-filter: drop-shadow(5px 5px 5px #000131);
     filter: drop-shadow(15px 15px 10px #000131);
@@ -156,13 +156,13 @@ input::placeholder {
 
 @keyframes bounce {
     0%{
-      transform: translateY(0px);
+      transform: translateX(-25px);
     }
-    100% {
-      transform: translateY(-15px);
-    }
-    0%{
-        transform: translateY(0px);
+    /* 50% {
+      transform: translateX(0px);
+    } */
+    100%{
+        transform: translateX(25px);
     }
   }
 
