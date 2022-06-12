@@ -48,7 +48,7 @@ body{
     height: 80%;
     margin: 10px 5px 5px 5px;
     border-radius: 25px;
-    position: sticky;
+    /* position: sticky; */
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -141,7 +141,7 @@ input::placeholder {
 
 .main-img{
     height: 120px;
-    width: 120px;
+    /* width: 120px; */
     animation: bounce 1000ms alternate infinite ease-in-out;
     
     -webkit-filter: drop-shadow(5px 5px 5px #000131);
