@@ -29,6 +29,7 @@ async function myWeather(citydata) {
     img.className = "main-img"
 
     let logo = data.weather[0].icon;
+    console.log(logo);
     // img.src = `https://openweathermap.org/img/wn/${logo}@2x.png`
     // img.src = './3d weather icons/cloud/17.png'
  
