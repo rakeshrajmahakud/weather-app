@@ -42,7 +42,8 @@ async function myWeather(citydata) {
 
     wind.innerHTML =`<span class="material-icons buttom-icon">air</span><br>${data.wind.speed}km/hr<br>Wind`;
     humidity.innerHTML =`<span class="material-icons buttom-icon">water_drop</span><br>${data.main.humidity}%<br>Humidity`;
-    pressure.innerHTML =`<span class="material-icons buttom-icon">speed</span><br>${data.main.pressure}hPa<br>Pressure`;
+    pressure.innerHTML =`<span class="material-icons buttom-icon
+    ">speed</span><br>${data.main.pressure}hPa<br>Pressure`;
 
 
 }
@@ -88,59 +89,59 @@ function randomImage() {
 function chooseCloud(key) {
     switch (key) {
         case '01d':
-            return './3d weather icons/day/clear01D.png';
+            return './3d weather icons/day/clear01D.webp';
 
         case '01n':
-            return './3d weather icons/night/clear01N.png';
+            return './3d weather icons/night/clear01N.webp';
 
         case '02d':
-            return './3d weather icons/day/fewclouds02D.png';
+            return './3d weather icons/day/fewclouds02D.webp';
 
         case '02n':
-            return './3d weather icons/night/fewclouds02N.png';
+            return './3d weather icons/night/fewclouds02N.webp';
 
         case '03d':
-             return './3d weather icons/day/scatteredcloud03D.png';
+             return './3d weather icons/day/scatteredcloud03D.webp';
 
         case '03n':
-            return './3d weather icons/night/scatteredcloud03N.png';
+            return './3d weather icons/night/scatteredcloud03N.webp';
             
         case '04d':
             
-            return './3d weather icons/day/brokencloud04D.png';
+            return './3d weather icons/day/brokencloud04D.webp';
 
         case '04n':
-            return './3d weather icons/night/brokencloud04N.png';
+            return './3d weather icons/night/brokencloud04N.webp';
 
         case '09d':
-            return './3d weather icons/day/showerrain09D.png';
+            return './3d weather icons/day/showerrain09D.webp';
 
         case '09n':
-            return './3d weather icons/night/showerrain09N.png';
+            return './3d weather icons/night/showerrain09N.webp';
 
         case '10d':
-            return './3d weather icons/day/rain10D.png';
+            return './3d weather icons/day/rain10D.webp';
 
         case '10n':
-            return './3d weather icons/night/rain10N.png';
+            return './3d weather icons/night/rain10N.webp';
 
         case '11d':
-            return './3d weather icons/day/thunderstorm11D.png';
+            return './3d weather icons/day/thunderstorm11D.webp';
 
         case '11n':
-            return './3d weather icons/night/thunderstorm11N.png';
+            return './3d weather icons/night/thunderstorm11N.webp';
           
         case '13d':
-            return './3d weather icons/day/snow13D.png';
+            return './3d weather icons/day/snow13D.webp';
 
         case '13n':
-            return './3d weather icons/night/snow13N.png';
+            return './3d weather icons/night/snow13N.webp';
 
         case '50d':
-            return './3d weather icons/day/mist50D.png';
+            return './3d weather icons/day/mist50D.webp';
 
         case '50n':
-            return "./3d weather icons/night/mist50N.png";
+            return "./3d weather icons/night/mist50N.webp";
                 
     }
 }
