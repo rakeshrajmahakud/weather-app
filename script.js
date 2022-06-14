@@ -30,8 +30,8 @@ async function myWeather(citydata) {
 
     let logo = data.weather[0].icon;
     console.log(logo);
-    // img.src = `https://openweathermap.org/img/wn/${logo}@2x.png`
-    // img.src = './3d weather icons/cloud/17.png'
+    // img.src = `https://openweathermap.org/img/wn/${logo}@2x.`
+    // img.src = './3d weather icons/cloud/17.'
  
     img.src = chooseCloud(logo);
     mainImg.innerHTML = "";
@@ -61,25 +61,25 @@ search.addEventListener('click',()=>{
 
 // this function select a random background image 
 function randomImage() {
-    let arr = ['url("./illustration backgrounds/1.png")',
-                'url("./illustration backgrounds/2.gif")',
-                'url("./illustration backgrounds/3.jpg")',
-                'url("./illustration backgrounds/4.gif")',
-                'url("./illustration backgrounds/5.gif")',
-                'url("./illustration backgrounds/6.png")',
-                'url("./illustration backgrounds/7.gif")',
-                'url("./illustration backgrounds/8.png")',
-                'url("./illustration backgrounds/9.gif")',
-                'url("./illustration backgrounds/10.gif")',
-                'url("./illustration backgrounds/11.png")',
-                'url("./illustration backgrounds/12.gif")',
-                'url("./illustration backgrounds/13.gif")',
-                'url("./illustration backgrounds/14.gif")',
-                'url("./illustration backgrounds/15.gif")',
-                'url("./illustration backgrounds/16.jpg")',
-                'url("./illustration backgrounds/17.gif")',
-                'url("./illustration backgrounds/18.jpg")',
-                'url("./illustration backgrounds/19.gif")'
+    let arr = ['url("./illustration backgrounds/1.webp")',
+                'url("./illustration backgrounds/2.webp")',
+                'url("./illustration backgrounds/3.webp")',
+                'url("./illustration backgrounds/4.webp")',
+                'url("./illustration backgrounds/5.webp")',
+                'url("./illustration backgrounds/6.webp")',
+                'url("./illustration backgrounds/7.webp")',
+                'url("./illustration backgrounds/8.webp")',
+                'url("./illustration backgrounds/9.webp")',
+                'url("./illustration backgrounds/10.webp")',
+                'url("./illustration backgrounds/11.webp")',
+                'url("./illustration backgrounds/12.webp")',
+                'url("./illustration backgrounds/13.webp")',
+                'url("./illustration backgrounds/14.webp")',
+                'url("./illustration backgrounds/15.webp")',
+                'url("./illustration backgrounds/16.webp")',
+                'url("./illustration backgrounds/17.webp")',
+                'url("./illustration backgrounds/18.webp")',
+                'url("./illustration backgrounds/19.webp")'
             ];
 
     let x = Math.trunc(Math.random() * (20 - 1) + 1);
